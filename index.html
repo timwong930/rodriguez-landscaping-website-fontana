@@ -3,8 +3,8 @@
 <head>
   <meta charset='utf-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
-  <title>Rodriguez Landscaping | Budget-friendly landscaping, hardscape, and yard m</title>
-  <meta name='description' content='Rodriguez Landscaping in Fontana — a starter site for landscaping services in the Inland Empire or Orange County.' />
+  <title>Rodriguez Landscaping | Landscaping, hardscape, and yard maintenance in Fontana</title>
+  <meta name='description' content='Rodriguez Landscaping in Fontana — a local landscaping, hardscape, and yard maintenance site with real project photos and a warmer brand palette.' />
   <link rel='stylesheet' href='styles.css' />
 </head>
 <body>
@@ -16,8 +16,8 @@
       </a>
       <nav class='nav-links' aria-label='Primary'>
         <a href='#services'>Services</a>
+        <a href='#gallery'>Public project photos</a>
         <a href='#areas'>Service Area</a>
-        <a href='#approach'>Approach</a>
         <a href='#contact'>Contact</a>
       </nav>
       <a class='btn btn-secondary' href='tel:9092790625'>Call (909) 279-0625</a>
@@ -30,7 +30,7 @@
         <div>
           <div class='kicker'>Landscaping</div>
           <h1>Budget-friendly landscaping, hardscape, and yard maintenance in the Inland Empire.</h1>
-          <p class='lead'>A cleaner brand and stronger page structure could make the current offer much easier to understand.</p>
+          <p class='lead'>A cleaner brand and stronger page structure make the offer easier to understand.</p>
           <div class='actions'>
             <a class='btn btn-primary' href='tel:9092790625'>Call (909) 279-0625</a>
             <a class='btn btn-secondary' href='#contact'>Request a Quote</a>
@@ -38,19 +38,49 @@
           <p class='note'>A landscaping and hardscape business serving the Inland Empire with an emphasis on budget-friendly service and drought-tolerant work.</p>
         </div>
         <aside class='hero-card'>
-          <h2 style='margin-top:0;font-size:22px;letter-spacing:-0.03em;'>What this site is set up to do</h2>
-          <p style='color:var(--muted);line-height:1.65;margin-top:0;'>A cleaner homepage, clearer service pages, and a simple contact path for homeowners, property managers, or project leads.</p>
+          <div class='hero-photos'>
+            <figure class='photo-frame photo-large'>
+              <img src='assets/hero-landscape.jpg' alt='Rodriguez Landscaping project showing a clean yard and landscaped front area' fetchpriority='high' />
+            </figure>
+            <div class='photo-stack'>
+              <figure class='photo-frame photo-small'>
+                <img src='assets/hero-yard.jpg' alt='Rodriguez Landscaping project showing hardscape and planting work' loading='lazy' />
+              </figure>
+              <figure class='photo-frame hero-logo' aria-hidden='true'></figure>
+            </div>
+          </div>
           <div class='stat-grid'>
             <div class='stat'><b>Fontana</b><span>Primary service area anchor</span></div>
             <div class='stat'><b>Landscaping</b><span>Local service niche</span></div>
-            <div class='stat'><b>5+ services</b><span>Outlined from public information</span></div>
+            <div class='stat'><b>5+ services</b><span>Organized from public information</span></div>
             <div class='stat'><b>Mobile-first</b><span>Readable, fast starter draft</span></div>
           </div>
         </aside>
       </div>
     </section>
 
-    <section id='services' class='section'>
+    <section class='section photo-showcase'>
+      <div class='section-heading'>
+        <p class='eyebrow'>Photo highlights</p>
+        <h2>Real photos from the public site.</h2>
+        <p class='section-intro'>Pulled from the business's public web presence so the homepage feels more like the company itself.</p>
+      </div>
+      <div class='photo-grid'>
+        <figure class='photo-card'>
+          <img src='assets/photo-1.jpg' alt='Primary project photo from the public site' loading='lazy' />
+          <figcaption><strong>Primary project photo from the public site.</strong>Used from the company’s public site.</figcaption>
+        </figure>
+        <figure class='photo-card'>
+          <img src='assets/photo-2.jpg' alt='Project photo from the public site' loading='lazy' />
+          <figcaption><strong>Project photo from the public site.</strong>Used from the company’s public site.</figcaption>
+        </figure>
+        <figure class='photo-card'>
+          <img src='assets/photo-3.png' alt='Another project photo from the public site' loading='lazy' />
+          <figcaption><strong>Another project photo from the public site.</strong>Used from the company’s public site.</figcaption>
+        </figure>
+      </div>
+    </section>
+<section id='services' class='section'>
       <div class='container'>
         <div class='section-head'>
           <div>
@@ -59,10 +89,25 @@
           </div>
         </div>
         <div class='cards'>
-          <article class='card'><h3>Landscaping</h3><p>General residential yard work and cleanups.</p></article>
-<article class='card'><h3>Hardscape</h3><p>Patios, stone, and other durable outdoor features.</p></article>
-<article class='card'><h3>Drought-tolerant yards</h3><p>Water-smart plantings and lower-maintenance layouts.</p></article>
-<article class='card'><h3>Reviews and booking</h3><p>A simple flow that helps homeowners request estimates.</p></article>
+          <article class='card'><h3>Landscaping</h3><p>General residential yard work, cleanups, and maintenance.</p></article>
+          <article class='card'><h3>Hardscape</h3><p>Patios, stone, and durable outdoor features.</p></article>
+          <article class='card'><h3>Drought-tolerant yards</h3><p>Water-smart plantings and lower-maintenance layouts.</p></article>
+          <article class='card'><h3>Local quotes</h3><p>A simple flow that helps homeowners request estimates.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id='gallery' class='section'>
+      <div class='container'>
+        <div class='section-head'>
+          <div>
+            <h2>Public project photos</h2>
+            <p>Real photos from the public Squarespace site, used to make the homepage feel more grounded and local.</p>
+          </div>
+        </div>
+        <div class='gallery-grid'>
+          <figure class='card gallery-card'><img src='assets/gallery-landscape.jpg' alt='Rodriguez Landscaping yard maintenance and planting work' loading='lazy' /><figcaption><strong>Rodriguez Landscaping yard maintenance and planting work</strong>Routine landscape maintenance from the company’s public site</figcaption></figure>
+          <figure class='card gallery-card'><img src='assets/gallery-hardscape.jpg' alt='Rodriguez Landscaping hardscape and outdoor project' loading='lazy' /><figcaption><strong>Rodriguez Landscaping hardscape and outdoor project</strong>Hardscape and outdoor improvements from the company’s public site</figcaption></figure>
         </div>
       </div>
     </section>
@@ -77,11 +122,11 @@
         </div>
         <div class='pills'>
           <span class='pill'>Fontana</span>
-<span class='pill'>Ontario</span>
-<span class='pill'>Rialto</span>
-<span class='pill'>Rancho Cucamonga</span>
-<span class='pill'>Riverside</span>
-<span class='pill'>Surrounding Inland Empire cities</span>
+          <span class='pill'>Ontario</span>
+          <span class='pill'>Rialto</span>
+          <span class='pill'>Rancho Cucamonga</span>
+          <span class='pill'>Riverside</span>
+          <span class='pill'>Inland Empire</span>
         </div>
       </div>
     </section>
@@ -96,9 +141,9 @@
         </div>
         <div class='list-grid'>
           <div class='card'><h3>Hero + clear CTA</h3><p>Make it easy to call or request an estimate in one tap.</p></div>
-<div class='card'><h3>Service pages</h3><p>Separate the highest-value jobs into dedicated pages for better clarity and SEO.</p></div>
-<div class='card'><h3>Proof and photos</h3><p>Add real project photos, review snippets, and trust signals as they become available.</p></div>
-<div class='card'><h3>Local relevance</h3><p>Keep the site focused on Fontana and nearby cities so it feels local fast.</p></div>
+          <div class='card'><h3>Service pages</h3><p>Separate the highest-value jobs into dedicated pages for better clarity and SEO.</p></div>
+          <div class='card'><h3>Proof and photos</h3><p>Add real project photos, review snippets, and trust signals as they become available.</p></div>
+          <div class='card'><h3>Local relevance</h3><p>Keep the site focused on Fontana and nearby cities so it feels local fast.</p></div>
         </div>
       </div>
     </section>
